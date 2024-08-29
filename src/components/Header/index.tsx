@@ -8,7 +8,7 @@ export default function Header() {
   const { setBuscador } = useContext(ShowContext)
 
   return (
-    <header className="flex items-center p-5 bg-[#141414] gap-10 justify-between shadow-xl fixed shadow-black w-screen">
+    <header className="flex items-center p-5 bg-[#141414] gap-10 justify-between shadow-xl fixed shadow-black w-screen z-50">
       <div className="flex items-center gap-10">
         <Image alt="Logo Netflix" src="/NetflixLogoSvg.png" width={180} height={90} />
         <nav className="text-gray-200 flex gap-3">
