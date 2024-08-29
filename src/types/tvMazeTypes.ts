@@ -30,7 +30,7 @@ export interface Schedule {
 }
 
 export interface Rating {
-  average?: number
+  average: number
 }
 
 export interface Network {
