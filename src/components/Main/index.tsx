@@ -20,7 +20,7 @@ export default function Main() {
   }
 
   return (
-    <main className="text-gray-200 flex justify-center gap-4 flex-wrap">
+    <main className="text-gray-200 flex justify-center gap-4 flex-wrap w-full">
       {showList?.map((show, index) => (
         <div className="w-fit">
           <ShowCard key={index} titulo={show.name} img={show.image} />

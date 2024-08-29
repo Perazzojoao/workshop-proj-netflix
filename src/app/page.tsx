@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <>
       <Header />
+      <div className="w-full h-[180px]"></div>
       <Main />
     </>
   );
